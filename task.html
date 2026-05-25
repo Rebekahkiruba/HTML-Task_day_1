@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header{
+            background: rgb(21, 21, 238);
+            color: #ffffff;
+            padding: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .task-input{
+            margin:20px;
+            display:flex;
+            gap:20px;
+        }
+
+      .task-input input{
+         padding:10px;
+        font-size:18px;
+            
+        }
+
+      .task-input select{
+         padding:10px;
+        font-size:18px;
+            
+        }
+
+        .task-input button{
+            padding: 10px;
+        }
+
+         /* Outer Outline Box */
+.task-container{
+    border:2px solid ;
+    padding:20px;
+    margin:40px;
+}
+
+/* Inner Cards */
+.task-card{
+    border:1px solid rgb(25, 25, 25);
+    border-radius:10px;
+
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    
+  margin-left: 50px;
+  margin-right: 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+        .done{
+            background: rgb(15, 223, 15);
+            color: #ffffff;
+            border: 0ch;
+            padding: 10px;
+            border-radius: 2px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Task Scheduler</h1>
+    </div>
+
+    <!-- Input Section -->
+    <div class="task-input">
+
+        <input type="text" placeholder="Enter task...">
+
+        <select>
+            <option>Top Priority</option>
+            <option>Medium Priority</option>
+            <option>Low Priority</option>
+        </select>
+
+        <input type="date">
+
+        <button>Add Task</button>
+
+    </div>
+    
+
+     <div class="task-container">
+
+        <div class="task-card">
+
+            <h2>DSA Practice</h2>
+
+            <p class="prior" style="width: 3px;text-align: center; padding:2px;">Priority:top</p>
+
+            <p>Deadline: 25/5/2026</p>
+
+            <button class="done">Mark Done</button>
+
+        
+
+    </div>
+     
+      
+
+        <div class="task-card">
+
+            <h2>JS Practice</h2>
+
+            <p class="prior" style="width:3px;text-align: center; padding:2px;">Priority:Low</p>
+
+            <p>Deadline: 25/5/2026</p>
+
+            <button class="done">Mark Done</button>
+
+    
+    </div>
+    
+    
+    <div class="task-card">
+
+            <h2>Maths Practice</h2>
+
+            <p class="prior">Priority:Medium</p>
+
+            <p class="dead" style="text-align: left;">Deadline: 25/5/2026</p>
+
+            <button class="done">Mark Done</button>
+    </div>
+    </div>
+
+</body>
+</html>
