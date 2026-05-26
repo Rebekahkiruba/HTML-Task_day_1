@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        body{
+            background:white;
+            margin-left:30px;
+            padding-bottom: 40px;
+            margin-top: 90px;
+            padding-right: 100px;
+          
+            font-family: Arial, Helvetica, sans-serif;
+        }
+      .hero{
+    width:100%;
+    height:100vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+    margin-left: 50px;
+    margin-right: 80px;
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+      }
+      nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:30px 80px;
+}
+.content button{
+    margin-top: 40px;
+    padding: 20px 40px;
+    background:rgb(215, 114, 12);
+    color: antiquewhite;
+    border: 0ch;
+    border-radius: 50px;
+}
+.content p{
+    margin-top: 40px;
+    margin-right: 100px;
+    padding-left: 130px;
+    padding-right: 20px;
+    font-size: 30px;
+    
+}
+.content h1{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    
+}
+
+.logo{
+    font-size:28px;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+.content{
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Start Bootstrap</h2>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>YOUR FAVOURITE SOURCE OF 
+                FREE BOOTSTRAP THEMES</h1>
+            <p>Start Bootstrap can help you bulid better websites using the Bootstrap
+                framework! Just download a theme and start customzing ,no string attached!
+            </p> 
+            <button>FIND OUT MORE
+        </div>
+    </div>
+</body>
+</html>
