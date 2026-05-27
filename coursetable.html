@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course Page</title>
+    <style>
+        body{
+            margin-left: 80px;
+            margin-right: 80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+       .main{
+             display:flex;
+
+            justify-content:space-between;
+
+            align-items:flex-start;
+           
+          }
+
+       .right img{
+              width:500px;
+              margin-left: 60px;
+              height: 400px;
+              position:absolute;
+              right:50px;
+              padding-bottom: 500px;
+              margin-left: 500px;
+             
+              top:200px;
+
+           }
+       .left table{
+               width:900px;
+               border-collapse: collapse;
+               font-size: 30px;
+
+              }
+
+       td, th {
+               border: 1px solid;
+             padding: 8px;
+             }
+
+        .gray{
+            background-color: rgb(181, 180, 180);
+        }  
+
+        h1{
+            background:rgb(65, 65, 225);
+            padding: 20px;
+            font-size: 40px;
+        }
+        p{
+            font-size: 30px;
+        }
+        .title{
+            background: rgb(65, 65, 225);
+        }
+        
+           
+        
+        th,td{
+            padding-bottom: 30px;
+            padding-right: 30px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        /*DOG*/
+        img{
+            width:430px;
+            height: 400px;
+            position:absolute;
+            right:50px;
+            padding-bottom: 500px;
+            margin-right: 380px;
+            top:200px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="left">   
+    <h1 style="font-style: italic;">Courses</h1>
+    <p>Here are some courses I've taken:</p>
+    <div class="table">
+    <table border="1">
+        <tr>
+        <th>Course Number</th>
+        <th>Course Title</th>
+        <th>Semester Taken</th>
+        </tr>
+        
+             <tr>
+        <th colspan="3">For Credit</th>
+    </tr>
+        
+        <tr class="gray">
+             <td>6.813</td>
+            <td>User Interface Design</td>
+            <td>Spring 2014</td>
+        </tr>
+        <tr>
+            <td>6.034</td>
+            <td>Artificial Intelligence</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr clas="gray">
+            <td>6.006</td>
+            <td>Introduction to Algorithmse</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+             <tr>
+        <th colspan="3">Listener</th>
+    </tr>
+        <tr class="gray">
+            <td>6.867</td>
+            <td>Machine Learning</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+            <td>6.830</td>
+            <td>Database Systems</td>
+            <td>Fall 2012</td>
+        </tr>
+    </table>
+    <br>
+    <h1 class="title">Interests</h1>
+    <p>
+        I am interested <b>HCI</b>, memes, and youtube videos.
+    </p>
+    </div>
+    </div>
+
+    <div class="right">
+    <img src="jpg/dog.jpg" class="dog" alt="dogimage">
+     </div>
+    
+    
+</body>
+</html>
